@@ -5,15 +5,18 @@ nav{
 .container{
     width: 100%;
     padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 15px; 
+     padding-top: 15px;
     margin-top: 15px; 
     margin-right: auto;
     margin-left: auto;
 }
-#head{
+#head{                      
     font-size: 20px;
    
+}
+.nav1{
+    position: static;
 }
 .demo{
   width: 100%;
@@ -71,7 +74,7 @@ color:blue;
     border-radius: 20px;
 }
 .span1{
-    font-size: 28px;
+    font-size: 28px; 
     font-weight: bold;
 }
 .icon1{
@@ -79,7 +82,7 @@ margin-bottom: 20px;
 }
 .content1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .navbar1{
     width: 100%;
@@ -91,8 +94,7 @@ margin-bottom: 20px;
      height:80px;
      border-radius: 53%;
      margin-bottom: 15px;
-     
-}
+     }
 .line{
     font-weight: bold;
     
@@ -107,6 +109,7 @@ margin-bottom: 20px;
 .tex{
     font-size: 22px;
 }
+
 /* i.notif {
     position: relative;
     display: block;

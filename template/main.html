@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
- <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
-      integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-<body>
 
- 
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+    integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="../javaScript/main.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+
+</head>
+
+<body>
+  <div style="background-color: #eff3f5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav1">
       <div class="container">
         <!-- <div class="container"> -->
         <div class="row demo">
           <div class="col-sm-7 align-self-start">
-
             <h1 style="font-size:28px"> <i class="fa fa-cloud" style="font-size:30px;color:blue;"></i>Liberty<span
                 style="color:blue">UI</span></h1>
             <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
@@ -25,9 +33,7 @@
           <div class="col-sm-3">
             <div class="input-container">
               <form>
-
                 <input class="form-control mr-sm-2 input1" type="search" placeholder="search" aria-label="Search">
-               
                 <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
               </form>
             </div>
@@ -42,9 +48,7 @@
           <div class="col-sm-1">
             <img src="../ASSETS//download.jpeg" class="img-circle" alt="Cinque Terre">
           </div>
-
           <!-- </div> -->
-
           <div style="background-color: #eff3f5" class="navbar1">
             <!--  -->
             <div class="row">
@@ -56,7 +60,6 @@
                   <div class="col-sm-2">
                     <a href="#">WIDGETS</a>
                   </div>
-
                   <div class="col-sm-2">
                     <a href="#">UIELEMENTS</a>
                   </div>
@@ -73,20 +76,16 @@
               </div>
             </div>
             <!--  -->
-
           </div>
           <!-- </div><br> -->
-
-
     </nav>
-  </div>
-  <div class="container">
-    <div class="row">
-      <!-- <div class="col-sm-3">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-sm-3">
   
           <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
         </div> -->
-      <!-- <div class="card" style="width: 18rem;">
+        <!-- <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -94,250 +93,288 @@
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div> -->
-      <div class="col-sm-3 ">
-
-        <div class="card" style="width: 18rem;">
-
-          <div class="text">
-            <div class="card-body align-items-center d-flex justify-content-center">
-              <span class="icon1"><i class="fa fa-camera-retro fa-2x pull-left" style="color:blue"></i> </span>&nbsp;
-              <p>New Users
-                <br><span class="span1">65,650</p></span>
+        <div class="col-sm-3 ">
+          <div class="card">
+            <div class="text">
+              <div class="card-body align-items-center d-flex justify-content-center">
+                <span class="icon1"><i class="fa fa-camera-retro fa-2x pull-left" style="color:blue"></i> </span>&nbsp;
+                <p>New Users
+                  <br><span class="span1">65,650</p></span>
+              </div>
             </div>
           </div>
-
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="text">
+              <div class="card-body align-items-center d-flex justify-content-center">
+                <span class="icon1"><i class="fa fa-camera-retro fa-2x pull-left" style="color:blue"></i> </span>&nbsp;
+                <p>New Feedbacks
+                  <br><span class="span1">32,604</p></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="text">
+              <div class="card-body align-items-center d-flex justify-content-center">
+                <span class="icon1"><i class="fa fa-camera-retro fa-2x pull-left" style="color:blue"></i> </span>&nbsp;
+                <p>Employees
+                  <br><span class="span1">17,583</p></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="text">
+              <div class="card-body align-items-center d-flex justify-content-center">
+                <span class="icon1"><i class="fa fa-camera-retro fa-2x pull-left" style="color:blue"></i> </span>&nbsp;
+                <p>Total Sales
+                  <br><span class="span1">61,119</p></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
-          <div class="text">
-            <div class="card-body align-items-center d-flex justify-content-center">
-              <span class="icon1"><i class="fa fa-camera-retro fa-2x pull-left" style="color:blue"></i> </span>&nbsp;
-              <p>New Feedbacks
-                <br><span class="span1">32,604</p></span>
+
+      <!-- <div class="container"> -->
+      <div class="row content1">
+        <div class="card" style="width: 21rem;">
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <img src="../ASSETS/download.jpeg" class="img-circle1" alt="Cinque Terre">
+
+            </div>
+            <h5 class="card-title d-flex justify-content-center">mark zuckerberg</h5>
+            <h8 class="card-title d-flex justify-content-center" style="color: darkgray">Founder of FB</h8>
+            <p>Markup language is used to define the text document within tag which ... HTML is a markup language which
+              is
+              used by the browser to manipulate text, images and other content to display it in required format. ...
+              Elements and Tag: HTML uses predefined tags and elements which tells the</p>
+            <div class="row">
+              <div class="col text-center">
+                <button class="btn btn-default" style="background-color:blue;color: white">Follow</button>
+              </div>
+            </div>
+            <hr>
+            <!-- <div class="d-flex justify-content-center"> -->
+            <div class="row">
+              <div class="col-sm-4 d-flex justify-content-center">
+                <p><span class="tex">5896</span><br>Post</p>
+              </div>
+              <div class="col-sm-4 d-flex justify-content-center">
+                <p><span class="tex">1596</span><br>Followers</p>
+              </div>
+              <div class="col-sm-4 d-flex justify-content-center">
+                <p><span class="tex">7896</span><br>Likes</p>
+              </div>
             </div>
           </div>
-
         </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
-          <div class="text">
-            <div class="card-body align-items-center d-flex justify-content-center">
-              <span class="icon1"><i class="fa fa-camera-retro fa-2x pull-left" style="color:blue"></i> </span>&nbsp;
-              <p>Employees
-                <br><span class="span1">17,583</p></span>
-            </div>
-          </div>
+        <div class="card" style="width: 21rem;">
+          <div class="card-body">
+            <p><span style="color: brown">Top Products</span><br><span class="text1"
+                style="color:grey">598,486</span><br>6.5% change from today</p>
+            <hr>
+            <p><span style="color: brown">Support Cases</span><br><span class="text1"
+                style="color:grey">323,360</span><br>2.5% change from yesterday</p>
 
+            <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
-          <div class="text">
-            <div class="card-body align-items-center d-flex justify-content-center">
-              <span class="icon1"><i class="fa fa-camera-retro fa-2x pull-left" style="color:blue"></i> </span>&nbsp;
-              <p>Total Sales
-                <br><span class="span1">61,119</p></span>
+        <div class="card" style="width: 21rem;">
+          <div class="card-body">
+            <div class="row ">
+              <!-- <div class="col-sm-6 d-flex justify-content-center">
+                <p><span class="tex">5896</span><br>Total Sales</p>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-center">
+                <p><span class="tex">5896</span><br>Open campaing</p>
+              </div> -->
+              <div class="col-sm-12">
+                <div id="container1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row content1">
+    <div class="container">
+      <table class="table table-bordered">
+        <thead style="background-color: #eff3f5">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Assignee</th>
+            <th scope="col">Task Details</th>
+            <th scope="col">Payment Method</th>
+            <th scope="col">Payment Status</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Tracking Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>credit card</td>
+            <td>@mdo</td>
+            <td> <button class="btn btn-default" style="background-color:green;color: white">Approved</button></td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Internet banking</td>
+            <td>@fat</td>
+            <td><button class="btn btn-default" style="background-color:orangered;color:white">Pending</button></td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry the Bird</td>
+            <td>credit card</td>
+            <td>@twitter</td>
+            <td><button class="btn btn-default" style="background-color:green;color:white">Approved</button></td>
+            <td>Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Larry the Bird</td>
+            <td>cash on delivery</td>
+            <td>@twitter</td>
+            <td><button class="btn btn-default" style="background-color:orangered;color:white">Rejected</button></td>
+            <td>Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <div class="row content1">
 
-      <div class="card" style="width: 21rem;">
-        <div class="card-body">
-          <div class="d-flex justify-content-center">
-            <img src="../ASSETS/download.jpeg" class="img-circle1" alt="Cinque Terre">
+        <div class="card" style="width: 34rem;">
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <img src="../ASSETS/download.jpeg" class="img-circle1" alt="Cinque Terre">
 
-          </div>
-          <h5 class="card-title d-flex justify-content-center">mark zuckerberg</h5>
-          <h8 class="card-title d-flex justify-content-center" style="color: darkgray">Founder of FB</h8>
-          <p>Markup language is used to define the text document within tag which ... HTML is a markup language which is
-            used by the browser to manipulate text, images and other content to display it in required format. ...
-            Elements and Tag: HTML uses predefined tags and elements which tells the</p>
-          <div class="row">
-            <div class="col text-center">
-              <button class="btn btn-default" style="background-color:blue;color: white">Follow</button>
             </div>
-          </div>
-          <hr>
-          <!-- <div class="d-flex justify-content-center"> -->
-          <div class="row">
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p><span class="tex">5896</span><br>Post</p>
+            <h5 class="card-title d-flex justify-content-center">mark zuckerberg</h5>
+            <h8 class="card-title d-flex justify-content-center" style="color: darkgray">Founder of FB</h8>
+            <p>Markup language is used to define the text document within tag which ... HTML is a markup language which
+              is used by the browser to manipulate text, images and other content to display it in required format. ...
+              Elements and Tag: HTML uses predefined tags and elements which tells the</p>
+            <div class="row">
+              <div class="col text-center">
+                <button class="btn btn-default" style="background-color:blue;color: white">Follow</button>
+              </div>
             </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p><span class="tex">1596</span><br>Followers</p>
-            </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p><span class="tex">7896</span><br>Likes</p>
+            <hr>
+            <!-- <div class="d-flex justify-content-center"> -->
+            <div class="row">
+              <div class="col-sm-4 d-flex justify-content-center">
+                <p><span class="tex">5896</span><br>Post</p>
+              </div>
+              <div class="col-sm-4 d-flex justify-content-center">
+                <p><span class="tex">1596</span><br>Followers</p>
+              </div>
+              <div class="col-sm-4 d-flex justify-content-center">
+                <p><span class="tex">7896</span><br>Likes</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="card" style="width: 21rem;">
-        <div class="card-body">
-          <p><span style="color: brown">Top Products</span><br><span class="text1"
-              style="color:grey">598,486</span><br>6.5% change from today</p>
-          <hr>
-          <p><span style="color: brown">Support Cases</span><br><span class="text1"
-              style="color:grey">323,360</span><br>2.5% change from yesterday</p>
-        </div>
-      </div>
-      <div class="card" style="width: 21rem;">
-        <div class="card-body">
-          <div class="row ">
-            <div class="col-sm-6 d-flex justify-content-center">
-              <p><span class="tex">5896</span><br>Total Sales</p>
-            </div>
-            <div class="col-sm-6 d-flex justify-content-center">
-              <p><span class="tex">5896</span><br>Open campaing</p>
-            </div>
+        <div class="card" style="width: 34rem;">
+          <div class="card-body">
+            <p><span style="color: brown">Top Products</span><br><span class="text1"
+                style="color:grey">598,486</span><br>6.5% change from today</p>
+            <hr>
+            <p><span style="color: brown">Support Cases</span><br><span class="text1"
+                style="color:grey">323,360</span><br>2.5% change from yesterday</p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <table class="table table-bordered">
-      <thead style="background-color: #eff3f5">
-        <tr>
-          <th scope="col">ID</th>
-          <th scope="col">Assignee</th>
-          <th scope="col">Task Details</th>
-          <th scope="col">Payment Method</th>
-          <th scope="col">Payment Status</th>
-          <th scope="col">Amount</th>
-          <th scope="col">Tracking Number</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>credit card</td>
-          <td>@mdo</td>
-          <td> <button class="btn btn-default" style="background-color:green;color: white">Approved</button></td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Internet banking</td>
-          <td>@fat</td>
-          <td><button class="btn btn-default" style="background-color:orangered;color:white">Pending</button></td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Larry the Bird</td>
-          <td>credit card</td>
-          <td>@twitter</td>
-          <td><button class="btn btn-default" style="background-color:green;color:white">Approved</button></td>
-          <td>Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>Larry the Bird</td>
-          <td>cash on delivery</td>
-          <td>@twitter</td>
-          <td><button class="btn btn-default" style="background-color:orangered;color:white">Rejected</button></td>
-          <td>Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="container">
-    <div class="row content1">
-
-      <div class="card" style="width: 34rem;">
-        <div class="card-body">
-          <div class="d-flex justify-content-center">
+    <div class="container">
+      <div class="row">
+        <div class="card">
+          <div class="card-body">
+            <!-- <div class="d-flex justify-content-center">
             <img src="../ASSETS/download.jpeg" class="img-circle1" alt="Cinque Terre">
 
           </div>
-          <h5 class="card-title d-flex justify-content-center">mark zuckerberg</h5>
-          <h8 class="card-title d-flex justify-content-center" style="color: darkgray">Founder of FB</h8>
-          <p>Markup language is used to define the text document within tag which ... HTML is a markup language which is
-            used by the browser to manipulate text, images and other content to display it in required format. ...
-            Elements and Tag: HTML uses predefined tags and elements which tells the</p>
-          <div class="row">
-            <div class="col text-center">
-              <button class="btn btn-default" style="background-color:blue;color: white">Follow</button>
+           -->
+            <div class="row">
+              <div class="col-sm-2 d-flex justify-content-center">
+                <span>
+                  <p>Manage Tickets</p>
+                </span>
+              </div>
             </div>
+            <div class="row">
+              <div class="col-sm-2 d-flex justify-content-center">
+                <img src="../ASSETS/images.jpeg" class="img-circle1" alt="Cinque Terre">
+
+              </div>
+              <div class="col-sm-8">
+                <p>It's a lot like the
+                  <link> tag you've already been using to include your CSS files. Here's a very basic snippet of
+                  JavaScript using the script tag. This JavaScript is written directly into our HTML page. It will call
+                  and alert box as soon as the page loads.</p>
+
+              </div>
+              <div class="col-sm-2">
+                <button class="btn btn-default" style="background-color:blue;color: white">Manage</button>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-2 d-flex justify-content-center">
+                <img src="../ASSETS/cinqueterre.jpg" class="img-circle1" alt="Cinque Terre">
+
+              </div>
+              <div class="col-sm-8">
+                <p>It's a lot like the
+                  <link> tag you've already been using to include your CSS files. Here's a very basic snippet of
+                  JavaScript using the script tag. This JavaScript is written directly into our HTML page. It will call
+                  and alert box as soon as the page loads.</p>
+
+              </div>
+              <div class="col-sm-2">
+                <button class="btn btn-default" style="background-color:blue;color: white">Manage</button>
+
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-2 d-flex justify-content-center">
+                <img src="../ASSETS/images (1).jpeg" class="img-circle1" alt="Cinque Terre">
+
+              </div>
+              <div class="col-sm-8">
+                <p>It's a lot like the
+                  <link> tag you've already been using to include your CSS files. Here's a very basic snippet of
+                  JavaScript using the script tag. This JavaScript is written directly into our HTML page. It will call
+                  and alert box as soon as the page loads.</p>
+
+              </div>
+              <div class="col-sm-2">
+                <button class="btn btn-default" style="background-color:blue;color: white">Manage</button>
+
+              </div>
+            </div>
+
           </div>
-          <hr>
-          <!-- <div class="d-flex justify-content-center"> -->
+        </div>
+        <div class="container">
           <div class="row">
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p><span class="tex">5896</span><br>Post</p>
-            </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p><span class="tex">1596</span><br>Followers</p>
-            </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p><span class="tex">7896</span><br>Likes</p>
-            </div>
           </div>
         </div>
       </div>
-      <div class="card" style="width: 34rem;">
-        <div class="card-body">
-          <p><span style="color: brown">Top Products</span><br><span class="text1"
-              style="color:grey">598,486</span><br>6.5% change from today</p>
-          <hr>
-          <p><span style="color: brown">Support Cases</span><br><span class="text1"
-              style="color:grey">323,360</span><br>2.5% change from yesterday</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <div class="container">
-    <div class="row content1">
-
-      <div class="card">
-        <div class="card-body">
-          <div class="d-flex justify-content-center">
-            <img src="../ASSETS/download.jpeg" class="img-circle1" alt="Cinque Terre">
-
-          </div>
-          <h5 class="card-title d-flex justify-content-center">mark zuckerberg</h5>
-          <h8 class="card-title d-flex justify-content-center" style="color: darkgray">Founder of FB</h8>
-          <p>Markup language is used to define the text document within tag which ... HTML is a markup language which is
-            used by the browser to manipulate text, images and other content to display it in required format. ...
-            Elements and Tag: HTML uses predefined tags and elements which tells the</p>
-          <div class="row">
-            <div class="col text-center">
-              <button class="btn btn-default" style="background-color:blue;color: white">Follow</button>
-            </div>
-          </div>
-          <hr>
-          <!-- <div class="d-flex justify-content-center"> -->
-          <div class="row">
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p><span class="tex">5896</span><br>Post</p>
-            </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p><span class="tex">1596</span><br>Followers</p>
-            </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p><span class="tex">7896</span><br>Likes</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
     </div>
   </div>
 </body>
